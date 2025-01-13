@@ -1,0 +1,113 @@
+:root {
+    --darkest-dark: #2c2c2c;
+    --main-dark: #3b3b3b;
+    --second-dark: #4e4e4e;
+    --background-dark: #575757;
+    --text-white: white;
+    --border-dark: #868686;
+    --description-dark: #adadad;
+    --red-dark: #e95f5f;
+    --red-dark-hover: #e74a4a;
+    --blue-dark: #8ABCF2;
+    --blue-dark-hover: #70acec;
+}
+
+.logo.dark-theme {
+    content: url('../images/logo-blanc.png');
+}
+
+body.dark-theme,
+.favorite-item.dark-theme:hover,
+.navbar.dark-theme,
+.container-main.dark-theme,
+.container.dark-theme,
+.list-group-item.dark-theme,
+.btn-group.dark-theme,
+.notification-button.dark-theme,
+.empty-bookmark.dark-theme {
+    background-color: var(--background-dark) !important;
+}
+
+.navbar.dark-theme {
+    background-color: var(--darkest-dark) !important;
+}
+
+.nav-item.dark-theme,
+input.dark-theme,
+select.dark-theme,
+.dropdown-menu.dark-theme,
+.dropdown-item.dark-theme,
+.select-selected.dark-theme,
+.select-items.dark-theme,
+.list-group-item.dark-theme {
+    background-color: var(--second-dark) !important;
+    color: var(--text-white) !important;
+}
+
+.select-selected.dark-theme,
+.select-items.dark-theme {
+    border-color: var(--blue-dark);
+}
+
+.nav-item.dark-theme:hover,
+.dropdown-item.dark-theme:hover {
+    background-color: var(--main-dark) !important;
+    color: var(--text-white) !important;
+}
+
+.container-main.dark-theme {
+    background-color: var(--darkest-dark) !important;
+    color: var(--text-white) !important;
+}
+
+.navbar-brand.dark-theme,
+.nav-link.dark-theme,
+h1.dark-theme,
+h2.dark-theme,
+p.dark-theme,
+.nocolor.dark-theme {
+    color: var(--text-white) !important;
+}
+
+.dark-theme::placeholder {
+    color: var(--border-dark) !important;
+}
+
+.container.dark-theme,
+.list-group-item.dark-theme {
+    border-color: var(--border-dark) !important;
+}
+
+.description.dark-theme {
+    color: var(--description-dark) !important;
+}
+
+.active {
+    border-color: inherit !important;
+}
+
+.attaquant.dark-theme {
+    color: var(--red-dark) !important;
+}
+
+.attaquant.dark-theme:hover,
+.notification-button.dark-theme:hover {
+    color: var(--red-dark-hover) !important;
+}
+
+.notification-button.dark-theme {
+    background-color: var(--red-dark) !important;
+}
+
+a.dark-theme,
+.empty-bookmark.dark-theme {
+    color: var(--blue-dark) !important;
+}
+
+a.dark-theme:hover {
+    color: var(--blue-dark-hover) !important;
+}
+
+.dark-bold.dark-theme {
+    font-weight: bold !important;
+}
